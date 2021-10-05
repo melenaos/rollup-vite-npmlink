@@ -1,0 +1,27 @@
+{
+  "name": "vite-link",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "link rollup lib": "npm link rollup-link",
+    "link vue-shopify": "npm link @melenaos/vue-shopify"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "codyhouse-framework": "^2.7.6",
+    "mitt": "^2.1.0",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.0-0",
+    "@melenaos/vue-codyhouse": "^0.1.12",
+    "@melenaos/vue-common": "^0.1.10-alpha.6",
+    "@melenaos/vue-shopify": "0.1.10-alpha.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.1",
+    "@vue/compiler-sfc": "^3.0.5",
+    "typescript": "^4.1.3",
+    "vite": "^2.1.5",
+    "vue-tsc": "^0.0.15"
+  }
+}
